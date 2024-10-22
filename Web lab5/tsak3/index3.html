@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-Типографіка</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('fonts/MyCustomFont.woff2') format('woff2'),
+                 url('fonts/MyCustomFont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2, h3 {
+            font-family: 'MyCustomFont', sans-serif;
+        }
+
+        .icon-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon-container div {
+            text-align: center;
+        }
+
+        .icon-container i {
+            font-size: 40px;
+            color: #333;
+        }
+
+        .icon-container p {
+            margin-top: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Веб-Типографіка</h1>
+    <h2>Використання нестандартних шрифтів і іконок</h2>
+
+    <div class="icon-container">
+        <div>
+            <i class="fas fa-coffee"></i>
+            <p>Кава</p>
+        </div>
+        <div>
+            <i class="fas fa-music"></i>
+            <p>Музика</p>
+        </div>
+        <div>
+            <i class="fas fa-heart"></i>
+            <p>Кохання</p>
+        </div>
+    </div>
+</body>
+</html>

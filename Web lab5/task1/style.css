@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'AeogoBox';
+    src: url('fonts/AeogoBox.ttf') format('ttf'),
+         url('fonts/AeogoBox.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+h1 {
+font-family: "AeogoBox";
+font-size: 100px;
+}
